@@ -17,7 +17,7 @@ export class AppComponent {
     });
   }
 
-  onBlueprintAdded(blueprintData: { serverName: string, serverContent: string ) {
+  onBlueprintAdded(blueprintData: { serverName: string, serverContent: string} ) {
     this.serverElements.push({
       type: 'blueprint',
       name: blueprintData.serverName,
